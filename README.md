@@ -8,7 +8,7 @@ https://doctors-portal-org.web.app/
 [author]: https://sourcecodebd.github.io/nafi.com/
 Simple Doctors-Patient Related site using MERN, Firebase 0Auth (Login with Facebook, Email), Material UI. Check it out!
 
-## Description: 
+## Description
 • Patient can take an appointment after login <br><br>
 • Appointment can be taken for specific date <br><br>
 • After taking appointment patient must pay using Debit card (Stripe Payment Gateway applied) <br><br>
