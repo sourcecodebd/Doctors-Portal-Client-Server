@@ -1,0 +1,15 @@
+.doctor{
+    margin: 10px;
+}
+.doctor-image img{
+    object-fit: cover;
+    height: 400px;
+    width: 100%
+}
+.doctor-body{
+    height: 120px;
+    padding: 10px;
+}
+.doctor-body::-webkit-scrollbar{
+    display: none;
+}

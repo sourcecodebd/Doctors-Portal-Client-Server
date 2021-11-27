@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+  font-family: 'Signika', sans-serif;
+}
+a, a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+h1, h2{
+  font-weight: 700;
+  margin: 30px 0;
+  color: #1976d2
+}
+.input-auth{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid #C5C5C5;
+  outline: none;
+}
+input{
+  outline: none;
+}
+.input-auth::placeholder{
+  font-size: 0.8em
+}
+.rounded-custom{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.lines{
+  background-color: limegreen;
+  height: 4px;
+  width: 70px;
+  margin: auto;
+  border-radius: 20px;
+}
+.lines-charm{
+  background-color: white;
+  height: 4px;
+  width: 70px;
+  margin: auto;
+  border-radius: 20px;
+}
+.bg-blur{
+  background: rgba(255,255,255,0.5);
+  backdrop-filter: blur(5px);
+  padding: 10px;
+}
+.white{
+  color: rgb(252, 238, 238);
+}
+.red{
+  color: red;
+}
+.green{
+  color: #1be9d8
+}
+.bg-green{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(25,198,184,1) 0%, rgba(0,212,255,1) 100%);
+}
+.blue{
+  color: #1976d2
+}
+.bg-blue{
+  background-color: #1976d2
+}
+.limegreen{
+  color: limegreen;
+}
+.bg-limegreen{
+  background-color: limegreen !important;
+}
+.justify{
+  text-align: justify;
+}
+.font-small{
+  font-size: 12px
+}
+.font-med{
+  font-size: 16px
+}
+.font-large{
+  font-size: 22px
+}
+.drawer-custom{
+  height: 200vh
+}
+.cards::-webkit-scrollbar, .drawer-custom::-webkit-scrollbar{
+  display: none;
+}
+@media only screen and (max-width: 768px){
+  .card-custom{
+    width: 100%;
+  }
+  .font-large{
+    font-size: 13px
+  }
+}
